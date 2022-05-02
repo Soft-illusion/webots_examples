@@ -1,0 +1,688 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.04468632205184315 0.9425390615012131 0.3310940201300705 2.742497718820519
+  position 6.993096622940708 9.20200177844543 -3.307441065377021
+}
+TexturedBackground {
+  texture "empty_office"
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 10.8
+  location -4 6 5
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 9.6
+  location 5 6 5
+}
+Floor {
+  translation 0 0 4.3
+  name "floor(1)"
+  size 20 16.4
+  tileSize 1 1
+  appearance ThreadMetalPlate {
+  }
+}
+Spot {
+  hidden position_0_0 -0.14238430125456658
+  hidden position_0_1 0.14238449889987959
+  hidden position_0_2 -0.15961371873792313
+  hidden position_0_3 0.1505454045479
+  hidden linearVelocity_0 0.01237642810315361 0.13651605989606952 0.050607185491412875
+  hidden angularVelocity_0 0.022638074394368712 0.0019257785835630936 0.005728203195408864
+  hidden rotation_18 0 0 -1 0.14238430125456553
+  hidden position_18_0 -0.13974102367467833
+  hidden linearVelocity_18 0.011693073270149032 0.14339232986653913 0.05082344895464442
+  hidden angularVelocity_18 0.03606199240567003 0.0014794085477909595 0.1056311690643211
+  hidden rotation_19 -1 0 0 0.13974102367467792
+  hidden position_19_1 0.2243971940360603
+  hidden linearVelocity_19 0.012239326762979445 0.09425870726948847 0.012127784873680124
+  hidden angularVelocity_19 0.36234459873841396 -0.04566568341897871 0.061332563328744656
+  hidden rotation_21 1 0 0 0.2243971940360594
+  hidden linearVelocity_21 0.02907292979317017 0.022220197208142476 -0.03316930699437844
+  hidden angularVelocity_21 -0.1617384512073776 0.030097979593308684 0.13249784211983162
+  hidden rotation_22 0 0 1 0.14238449889987914
+  hidden position_22_0 -0.13968776782454775
+  hidden linearVelocity_22 0.011844728204397637 0.144247542697306 0.05035661129427826
+  hidden angularVelocity_22 0.009206965294073144 0.0024214373808547 -0.094173566110278
+  hidden rotation_23 -1 0 0 0.13968776782454667
+  hidden position_23_1 0.22442001032080094
+  hidden linearVelocity_23 0.003126481480299904 0.09728313077407286 0.012137053307683108
+  hidden angularVelocity_23 0.3354332795757324 0.050785463289834895 -0.13803276522455962
+  hidden rotation_25 1 0 0 0.22442001032080183
+  hidden linearVelocity_25 -0.019821926490548075 0.0257863743596177 -0.028248404668224338
+  hidden angularVelocity_25 -0.1884567613533787 -0.026868113287610563 -0.0676046907130138
+  hidden rotation_26 0 0 -0.9999999999999999 0.1596137187379236
+  hidden position_26_0 -0.13969699666216254
+  hidden linearVelocity_26 0.013053392616974427 0.1288692664706792 0.050321282601680145
+  hidden angularVelocity_26 0.024901778120706663 0.0018268942613555795 0.021939550302847423
+  hidden rotation_27 -1 0 0 0.1396969966621641
+  hidden position_27_1 0.22441878443837204
+  hidden linearVelocity_27 0.0052390620073217865 0.09076253151951463 0.012574069122611047
+  hidden angularVelocity_27 0.3504743117328163 -0.05041385360927507 -0.022279683197436347
+  hidden rotation_29 1 0 0 0.22441878443837202
+  hidden linearVelocity_29 -0.0038096716471185863 0.022007010500020772 -0.029506276661010685
+  hidden angularVelocity_29 -0.17236641944984496 0.033470890972418364 0.048764995428923916
+  hidden rotation_30 0 0 1 0.15054540454789905
+  hidden position_30_0 -0.13973873896576972
+  hidden linearVelocity_30 0.013070308289295765 0.1298334103935703 0.050294698400945546
+  hidden angularVelocity_30 0.015259619789736075 0.002170438809916932 -0.048581458385671634
+  hidden rotation_31 -1 0 0 0.1397387389657683
+  hidden position_31_1 0.22440105409465527
+  hidden linearVelocity_31 0.008826692934987477 0.08901621694594526 0.011718828782144065
+  hidden angularVelocity_31 0.3411019727906509 0.05287119863345027 -0.09237443956321474
+  hidden rotation_33 1 0 0 0.22440105409465447
+  hidden linearVelocity_33 -0.00014234252628248992 0.01942423586986812 -0.03031633527426703
+  hidden angularVelocity_33 -0.182229626028873 -0.02856278229052033 -0.02207555639671419
+  translation -0.24250842246534557 0.5368944794059571 8.888257547793428
+  rotation 0.03970908907068054 0.9991379678155977 0.012104111470680202 0.13434353065367163
+}
+Door {
+  hidden translation_5 5.872222152980555e-10 0 0.0010000018720171533
+  translation 10.04 3.27 4
+  rotation 0 1 0 4.7123889
+  name "door(1)"
+  position -3.3780687010570195e-09
+  doorAppearance GlossyPaint {
+    baseColor 0.16 0.16 0.16
+  }
+  frameAppearance GlossyPaint {
+    baseColor 0.35 0.3503166247043564 0.35
+  }
+}
+OilBarrel {
+  translation 9.337425 0.44 -2.8961435
+  rotation 0 1 0 2.8732483
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation 8.4218847 0.44 -2.1373536
+  rotation 0 1 0 2.8732483
+  name "oil barrel(2)"
+}
+OilBarrel {
+  translation 8.2750954 0.44 -3.0222101
+  rotation 0 -1 0 0.3403392
+}
+Door {
+  hidden translation_5 5.872299868592279e-10 0 0.0010000018720418002
+  translation -10.05 0.02 0
+  rotation 0 1 0 1.5707963
+  position -3.3781213159614065e-09
+  doorAppearance GlossyPaint {
+    baseColor 0.16 0.16 0.16
+  }
+  frameAppearance GlossyPaint {
+    baseColor 0.35 0.3503166247043564 0.35
+  }
+}
+Floor {
+  translation 0 7 4.22
+  rotation 0 0 1 3.1415926
+  size 20 16.4
+  tileSize 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "textures/asphalt.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+Darwin-op {
+  hidden position_0_0 1.7013119467090128e-08
+  hidden position_0_1 -0.019999347165198533
+  hidden position_0_2 -0.009999512390777064
+  hidden position_0_3 0.719999867715406
+  hidden position_0_4 -0.8399996876979221
+  hidden position_10_0 0.19000001455082646
+  hidden rotation_11 1 0 0 0.5953999854491735
+  hidden rotation_15 0 1 0 0.019997285628466414
+  hidden position_15_0 -0.009999326113493497
+  hidden rotation_16 0 0 1 0.009999326113475848
+  hidden position_16_0 1.15000041199133
+  hidden rotation_17 -1 0 0 1.15000041199133
+  hidden position_17_0 -2.249999830973323
+  hidden rotation_18 0.9999999999999999 0 0 2.249999830973323
+  hidden position_18_0 -1.229999659423629
+  hidden rotation_19 -1 0 0 1.229999659423629
+  hidden position_19_0 -0.02000003500140756
+  hidden rotation_20 0 0 -1 0.020000035001402277
+  hidden rotation_21 0 0.9999999999999999 0 0.01000184954660922
+  hidden position_21_0 0.019999505344224993
+  hidden rotation_22 0 0 -1 0.019999505344225146
+  hidden position_22_0 -1.1499997228558698
+  hidden rotation_23 -1 0 0 1.1499997228558698
+  hidden position_23_0 2.2500000984838047
+  hidden rotation_24 1 0 0 2.2500000984838047
+  hidden position_24_0 1.2200000112972076
+  hidden rotation_25 -1 0 0 1.2200000112972078
+  hidden position_25_0 0.050000035584206404
+  hidden rotation_26 0 0 1 0.05000003558420708
+  hidden rotation_27 0.9999999999999999 0 0 0.7199992202432339
+  hidden position_27_0 0.3600001673132513
+  hidden rotation_28 0 0 0.9999999999999999 0.4253998326867482
+  hidden position_28_0 -0.5199999862319565
+  hidden rotation_29 -1 0 0 2.090799986231957
+  hidden rotation_30 0.9999999999999999 0 0 0.8399981454457353
+  hidden position_30_0 -0.32999959994091793
+  hidden rotation_31 0 0 -1 0.4554004000590806
+  hidden position_31_0 0.509999984263745
+  hidden rotation_32 -1 0 0 2.0807999842637446
+  translation -0.2060404615399803 0.8253621588114142 4.805464030134739
+  rotation 0.45545918013823117 -0.6636866539151748 -0.5933607339912957 -2.231113906366127
+  controller "void"
+}
+AiboErs7 {
+  hidden position_0_0 -0.5235996421924948
+  hidden position_0_1 3.1120892684444716e-09
+  hidden position_0_2 1.646127267556784e-07
+  hidden position_0_3 1.664072030706553e-07
+  hidden position_0_4 -6.295053633920134e-08
+  hidden position_0_5 -2.2215245731871391e-07
+  hidden rotation_2 -1 0 0 0.5235985573715841
+  hidden position_2_0 6.407528792329067e-08
+  hidden rotation_3 0 1 0 3.85130881766084e-07
+  hidden position_3_0 0.5236001233416486
+  hidden rotation_4 1 0 0 0.523600259913046
+  hidden position_4_0 1.288208684238309e-09
+  hidden position_4_1 -1.2602550114593214e-09
+  hidden position_12_0 -1.8519052957799431e-09
+  hidden rotation_14 1 0 0 6.610474888330381e-07
+  hidden position_14_0 -1.0300000763407979e-07
+  hidden rotation_15 0 0 -1 6.187122908838623e-07
+  hidden position_15_0 0.5236190472783945
+  hidden rotation_16 1 0 0 0.5236190472783945
+  hidden rotation_18 -1 0 0 3.345302391148161e-07
+  hidden position_18_0 -1.0300028208121148e-07
+  hidden rotation_19 0 0 -1 6.187122908838623e-07
+  hidden position_19_0 0.5235980469662592
+  hidden rotation_20 -1 0 0 0.5235980469662594
+  hidden rotation_22 -0.9999999999999999 0 0 1.7631291696726137e-07
+  hidden position_22_0 6.434720691525583e-08
+  hidden rotation_23 0 0 -1 3.9872789860545616e-07
+  hidden position_23_0 0.5236529747409414
+  hidden rotation_24 1 0 0 0.5236529747409416
+  hidden rotation_26 1 0 0 4.3084717675450407e-07
+  hidden position_26_0 -1.231054032047041e-07
+  hidden rotation_27 0 0 1 7.390735606931039e-07
+  hidden position_27_0 0.5235978659335134
+  hidden rotation_28 -1 0 0 0.5235978659335134
+  translation 1.147114212849865 0.8224934603125285 4.919975966288223
+  rotation 0.6838806602587029 0.6578618464159472 0.3154758842674375 2.558486240255093
+  controller "void"
+}
+LJoint {
+  translation -7.571 0.712 -3.19
+  rotation 0 1 0 1.5707963
+  name "L joint pipe(1)"
+}
+LJoint {
+  translation -7.571 2.422 -3.277
+  rotation 0.7071067761865476 0 0.7071067861865474 3.1415926
+}
+Wrench {
+  translation -0.3577901689013216 0.7387777788991937 4.347915865767096
+  rotation -0.9895868557636276 0.0005443699983937866 -0.14393595298313108 -0.00041430493245606093
+  name "wrench(1)"
+}
+Wrench {
+  translation 0.8606648969347785 0.7387777788991938 4.696695373103048
+  rotation -0.0003477376771166337 0.9999999057624407 -0.00025991078772322933 -0.9948380156217419
+}
+Hammer {
+  translation -0.8077853412707441 0.7524943933212942 4.680491074014161
+  rotation 0.00526197376441715 0.9999855715690489 -0.0010808727145601204 2.6180138397212653
+  name "hammer(1)"
+}
+Hammer {
+  translation 1.5252399984473064 0.7524943933231876 4.888393210219099
+  rotation -0.01024889669513896 -0.999908088922816 -0.008875461861477332 -0.7854731633537413
+}
+WoodenPallet {
+  translation -3.05 0.52 12.1
+  rotation 1 0 0 5.2359877
+}
+Table {
+  translation -0.23882837 0 4.8402928
+  size 4.5 0.74 1.5
+}
+CardboardBox {
+  translation 2.2324987 0.31 11.807743
+}
+PaintBucket {
+  hidden position_0_0 -0.3421522669516026
+  hidden rotation_1 -1 0 0 2.342154130910169
+  hidden position_1_0 0.42112333304480504
+  hidden rotation_2 0 0 1 0.42112233166903384
+  translation -0.7215038109961437 0.7381148589670549 5.1778427921458485
+  rotation 0.003578829094592182 0.9999930222155853 0.0010712154086655117 -0.5236010299346043
+}
+Screwdriver {
+  translation -0.07237557873072767 0.7518803849895743 5.20106342669172
+  rotation 0.24899384813018 0.2243010060440087 0.9421736157847822 1.739104605527714
+}
+WoodenPalletStack {
+  translation -6.8424942 0 11.754332
+  rotation 0 1 0 1.5707963
+  name "wooden pallet stack(1)"
+  palletNumber 6
+}
+WoodenPalletStack {
+  translation -5.2560137 0 11.74814
+  rotation 0 1 0 1.5707963
+  palletNumber 20
+}
+WoodenBox {
+  translation 0.070787217 0.3 11.12746
+  rotation 0 1 0 5.7595865
+  name "wooden box(1)"
+}
+WoodenBox {
+  translation 0.14546116 0.3 11.909219
+  name "wooden box(2)"
+}
+WoodenBox {
+  translation -1.1321262 0.3 11.1489
+  rotation 0 1 0 0.78539816
+  name "wooden box(3)"
+}
+WoodenBox {
+  translation 1.5463886 0.3 11.768592
+  name "wooden box(4)"
+}
+WoodenBox {
+  translation -0.49883855 0.3 11.765703
+  name "wooden box(5)"
+}
+WoodenBox {
+  translation 0.95220994 0.3 10.946614
+  rotation 0 1 0 4.9741884
+  name "wooden box(6)"
+}
+WoodenBox {
+  translation 0.91693757 0.3 11.921006
+  name "wooden box(7)"
+}
+WoodenBox {
+  translation 0.74212598 0.9 12.012516
+  name "wooden box(8)"
+}
+WoodenBox {
+  translation -0.5072975 1.52 11.706525
+  name "wooden box(9)"
+}
+WoodenBox {
+  translation -0.48872581 0.93 11.691652
+}
+LeverValve {
+  hidden position_0_0 -1.4838365161332678e-07
+  hidden translation_1 0 -7.147060721024445e-16 -5.247867448944817e-09
+  hidden rotation_1 -1 0 0 2.6488883546935307e-07
+  translation -7.5791585 0.692 -3
+  rotation 0 1 0 1.5707963
+}
+LargeValve {
+  hidden position_0_0 -15.707963265424523
+  hidden translation_1 0 0 2.456918402060637e-11
+  hidden linearVelocity_1 -1.7590973468970088e-12 -7.831567986771445e-14 -2.7756174963414173e-15
+  hidden angularVelocity_1 -3.561687923794478e-17 -1.0925106353541382e-15 1.107306518788384e-09
+  translation -5.7149744 0.706 -2.9726835
+  rotation 0 1 0 1.5707963
+}
+PipeSection {
+  translation -7.5740452 0.18 -3
+  rotation 0 0 -1 6.2831816
+  name "pipe section(1)"
+  height 1.2
+}
+PipeSection {
+  translation -5.2940471 0.7 -3
+  rotation 0 0 -1 1.5707926
+  name "pipe section(2)"
+  height 0.9
+  radius 0.02
+}
+PipeSection {
+  translation -7.5720026 1.56 -3.234
+  rotation 0 0 -1 6.2831816
+  name "pipe section(3)"
+  height 1.6
+}
+PipeSection {
+  translation -4.8579962 0.35 -3
+  rotation 0 0 -1 6.2831816
+  name "pipe section(4)"
+  height 0.7
+  radius 0.02
+}
+PipeSection {
+  translation -6.6249962 0.70600102 -3
+  name "pipe section(5)"
+  height 1.7
+}
+PipeSection {
+  translation -7.572 2.4659975 -3.74
+  rotation 0.5773488491887547 0.5773509791887517 0.5773509791887517 2.0943972
+  name "pipe section(6)"
+  height 0.8
+}
+PipeSection {
+  translation -5.714996 0.65600436 -3.37
+  rotation 0.5773488591887668 0.5773509791887638 -0.5773509691887639 4.1887881
+  height 0.8
+}
+SmallValve {
+  hidden position_0_0 -15.706000033703457
+  hidden translation_1 -0.006000000000000003 -0.0204 3.437752695867617e-10
+  hidden rotation_1 -1 0 0 3.141629433703178
+  hidden linearVelocity_1 -9.772877661827894e-17 -5.62053867586898e-17 -6.567521489709519e-22
+  hidden angularVelocity_1 1.3816935915453066e-14 -1.7704808188112032e-15 1.1620921767478876e-12
+  translation -4.8638332 0.707 -3
+  rotation 0 1 0 1.5707963
+}
+Wall {
+  translation 0 0 -3.82
+  name "wall(1)"
+  size 20 7 0.2
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Cabinet {
+  translation -0.46 0 -3.84
+  name "cabinet(1)"
+  columnsWidths [
+    1.3, 0.17, 0.17
+  ]
+  layout [
+    "Shelf (1, 5, 3, 0)"
+    "Shelf (1, 4, 3, 0)"
+    "Shelf (1, 3, 3, 0)"
+    "Shelf (1, 2, 3, 0)"
+  ]
+}
+Cabinet {
+  hidden translation_6 -0.50000000000552 0.7499652226635006 0.49999999995589794
+  hidden rotation_6 0.9901771374177759 4.832775272777334e-08 -0.13981858436966257 1.3412226523569025e-05
+  hidden position_6_0 -0.0006465947128223596
+  hidden translation_7 -3.474945234005489e-05 0 0.005880008295419025
+  hidden rotation_7 0 -0.9999999999999999 0 0.011819387340300627
+  hidden translation_10 0.50000000000552 0.7499652226684418 0.49999999995589794
+  hidden rotation_10 -0.990177286633244 4.8338439552551954e-08 -0.1398175276409371 -1.3412213828509749e-05
+  hidden position_10_0 0.0006465946709296929
+  hidden translation_11 3.4749446653492555e-05 0 0.005880007814342079
+  hidden rotation_11 0 1 0 0.011819386373242457
+  translation 1.49 0 -3.84
+  columnsWidths [
+    1, 1
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 1, 5, 1.5)"
+  ]
+}
+Wall {
+  translation 0 0 12.5
+  name "wall(2)"
+  size 20 7 0.2
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 5 1.75
+    }
+  }
+}
+Wall {
+  translation -10 0 4.3
+  rotation 0 1 0 1.57085
+  name "wall(3)"
+  size 16.5 7 0.2
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+Wall {
+  translation 10 0 4.3
+  rotation 0 -1 0 4.7123353
+  size 16.5 7 0.2
+  appearance Roughcast {
+    textureTransform TextureTransform {
+      scale 4.125 1.725
+    }
+  }
+}
+Solid {
+  translation 9.89 5.44 4.01
+  rotation 0 0 1 1.5707963
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        baseColorMap ImageTexture {
+          url [
+            "textures/fire_exit.jpg"
+          ]
+        }
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          rotation 1.5708
+        }
+      }
+      geometry Plane {
+        size 0.3 0.6
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Solid {
+  translation -9.87 2.31 0.01
+  rotation 0.7071067911865474 0.7071067711865474 0 3.1415926
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        baseColorMap ImageTexture {
+          url [
+            "textures/fire_exit.jpg"
+          ]
+        }
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          rotation 1.5708
+        }
+      }
+      geometry Plane {
+        size 0.3 0.6
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation -9.87 4.13 6.36
+  rotation 0.7071067911865474 0.7071067711865474 0 3.1415926
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        baseColorMap ImageTexture {
+          url [
+            "textures/ladybug.png"
+          ]
+          filtering 5
+        }
+        transparency 0.6
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          rotation 1.5708
+        }
+      }
+      geometry Plane {
+        size 5 5
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 9.25 3.21 3.95
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        baseColorMap ImageTexture {
+          url [
+            "textures/steel_floor.jpg"
+          ]
+        }
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          scale 2 2
+        }
+      }
+      geometry Box {
+        size 1.5 0.12 2.6
+      }
+    }
+  ]
+}
+StraightStairsRail {
+  translation 8.52 3.27 2.73
+  rotation 0 1 0 4.712389
+  name "straight stairs rail(1)"
+  run 2.5
+  rise 0
+  newelHeight 0.89
+  balusterHeight 0.9
+  nBalusters 9
+  appearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+    }
+  }
+}
+StraightStairsRail {
+  translation 8.57 3.27 5.23
+  rotation 0 -1 0 6.2831853
+  run 1.3
+  rise 0
+  newelHeight 0.89
+  balusterHeight 0.9
+  nBalusters 5
+  appearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+    }
+  }
+}
+StraightStairs {
+  translation 9.201 0 -0.17
+  rotation 0 1 0 -1.5707997
+  stepSize 0.3 0.01 1.34
+  stepRise 0.297
+  nSteps 10
+  stepAppearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+      scale 3 1
+    }
+  }
+  stringerAppearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 0.5
+    metalness 0
+    textureTransform TextureTransform {
+      rotation 1.5708
+      scale 3 3
+    }
+  }
+  leftRail []
+  rightRail [
+    StraightStairsRail {
+      run 3
+      rise 2.97
+      newelHeight 0.862
+      balusterHeight 0.83
+      nBalusters 12
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 0.5
+        metalness 0
+        textureTransform TextureTransform {
+          rotation 1.5708
+        }
+      }
+    }
+  ]
+}
+Pedestrian {
+  hidden translation_2 -5.551115123125783e-17 0.09181801289189104 0.15297330274466164
+  hidden rotation_2 -1 0 0 0.9760000000000022
+  hidden translation_3 0 -0.00043724035095070446 0.0009696483271046732
+  hidden rotation_3 1 0 0 0.010799999999968397
+  hidden translation_4 0 0.0015009395623188926 -0.04558545720856102
+  hidden rotation_4 -1 0 0 0.1228000000000032
+  hidden translation_5 0 0.09306497973599535 -0.17371805595723705
+  hidden rotation_5 1 0 0 1.0888000000000093
+  hidden translation_6 0 0.007680650500802841 -0.052589301717728694
+  hidden rotation_6 -1 0 0 0.5464000000000173
+  hidden translation_7 -2.7755575615628914e-17 -0.0022760776325980725 0.018889859145603052
+  hidden rotation_7 1 0 0 0.05119999999999604
+  hidden translation_8 0 -0.10897703110504647 0.1947556716131851
+  hidden rotation_8 1 0 0 0.7552000000000181
+  hidden translation_9 2.7755575615628914e-17 -0.08470913614139919 -0.37997464078002086
+  hidden rotation_9 -1 0 0 0.5176000000000293
+  hidden translation_10 0 -0.03065229309839057 0.18897024726305264
+  hidden rotation_10 1 0 0 0.16400000000000842
+  hidden translation_11 -5.551115123125783e-17 -0.0055547669553373535 -0.11001431808761869
+  hidden rotation_11 -1 0 0 0.3660000000000197
+  hidden translation_12 0 -0.01003346274070449 -0.1566893562668221
+  hidden rotation_12 -0.9999999999999999 0 0 0.206799999999965
+  hidden translation_13 0 -0.01467109903927133 -0.2979913095605794
+  hidden rotation_13 -1 0 0 0.2559999999999929
+  hidden translation_14 0 0.0018105677481437543 0.04790174109530688
+  hidden rotation_14 -1 0 0 0.1296000000000048
+  translation 3.799999999999999 1.3060000000000025 5.980000000000039
+  controller "Joystick"
+  controllerArgs [
+    "--trajectory=\"  5 10, 5 0\" --speed=1"
+  ]
+  rightLegAngle -0.9640000000000098
+  rightLowerLegAngle 1.2220000000000277
+  rightFootAngle -0.1859999999999934
+  leftLegAngle 0.3039999999999964
+  leftLowerLegAngle 0.18799999999999728
+  leftFootAngle 0.16400000000000886
+  rightArmAngle 0.6279999999999972
+  rightLowerArmAngle -0.5720000000000073
+  rightHandAngle 0.1519999999999982
+  leftArmAngle -0.5119999999999914
+  leftLowerArmAngle -0.4320000000000084
+  leftHandAngle -0.15000000000000568
+  headAngle 0.03599999999999795
+}
